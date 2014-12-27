@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Museo700';
+  src: url('Museo700.ttf');
+}
+
+@font-face {
+  font-family: 'Museo500';
+  src: url('Museo_Slab_500.otf');
+}
+
+
+body {
+  font-family: 'Museo500',Verdana,Helvetica,sans-serif;
+}
+
+h1 {
+  position: absolute;
+  width: 700px;
+  margin-top: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  font-family: 'Museo700',Verdana,Helvetica,sans-serif;
+  text-align: center;
+  color: #fff;
+  font-size: 45px;
+  background-color: rgba(77,77,77,0.5);
+  overflow: hidden;
+  padding: 10px;
+  border-radius: 5px;
+  text-shadow: #4290CE 2px 2px 4px;
+}

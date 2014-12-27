@@ -1,0 +1,13 @@
+AllCops:
+  Exclude:
+    - 'db/**/*'
+    - 'Guardfile'
+
+LineLength:
+  Max: 100
+
+MethodLength:
+  Max: 20
+
+Style/RaiseArgs:
+  EnforcedStyle: compact

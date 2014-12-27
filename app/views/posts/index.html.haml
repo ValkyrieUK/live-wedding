@@ -1,0 +1,14 @@
+- content_for :head do
+  = javascript_include_tag url_for(:action => 'index', :format => 'js')
+/ Thumbnail Navigation
+#thumb-tray.load-item
+/ Time Bar
+#progress-back.load-item
+  #progress-bar
+/ Control Bar
+#controls-wrapper.load-item
+  #controls
+    / Slide captions displayed here
+    #slidecaption
+      .caption-wrapper
+    / Thumb Tray button
